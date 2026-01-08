@@ -26,7 +26,7 @@ This project was created to practice:
 - Improving frontend design skills  
 
 ## 🔗 Live Preview
-You can view the project by Link Below 
+You can view the project with this Link  
 (https://shayanthedev.github.io/Socially-CSS-Animations-Assighnment/).
 
 ## 📌 Future Improvements
