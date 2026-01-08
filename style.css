@@ -1,0 +1,128 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/back-image.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 7px;
+    padding: 10px 0px 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+    margin: 10px 60px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover {
+    color: #df4881;
+    transition-duration: 0.2s;
+}
+
+.login-btn {
+    color: #333;
+    font-weight: 400;
+}
+
+.login-btn:hover {
+    color: #df4881;
+    transition-duration: 0.2s;
+
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+}
+
+.btn:hover {
+    border-radius: 30px;
+    transition-duration: 0.8s;
+}
+
+.login a {
+    display: inline-block;
+    margin: 13px 70px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.maintext {
+    margin-left: 150px;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+.maintext h1 {
+    font-weight: bold;
+    animation-delay: 1s;
+}
+
+.maintext p {
+    font-weight: lighter;
+    font-size: 18px;
+    animation-delay: 0.5s;
+}
+
+.girlpic,
+.anim {
+    animation-delay: 1.5s;
+}
+
+.girlpic {
+    width: 520px;
+    position: absolute;
+    top: 80px;
+    bottom: 0px;
+    right: 10%;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: girlimage 0.5s linear forwards;
+    animation-delay: 1.5s;
+}
+
+
+
+
+@keyframes girlimage {
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
